@@ -40,7 +40,7 @@ if IsLeftControlKeyDown() and canCast(740) and njkg == true then
 	castSpell("player",740,false,false)
 end
 --左Alt神器技能
-if canCast(208253) and IsLeftAltKeyDown() then
+if canCast(208253) and IsLeftAltKeyDown() and sqkg == true then
 	castSpell("player",208253,false,false)
 	--return
 end
